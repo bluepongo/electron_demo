@@ -12,8 +12,8 @@ export default new Router({
     },
     {
       path: '/',
-      name: 'todo',
-      component: require('@/components/Todo').default
+      name: 'role',
+      component: require('@/components/Role').default
     },
     {
       path: '*',

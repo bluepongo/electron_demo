@@ -66,12 +66,12 @@ function startRenderer () {
         quiet: true,
         hot: true,
         proxy: {
-          '/api/v1/todo/' : {
-            target: 'http://127.0.0.1:7986',
+          '/api/v1/lifeboat/' : {
+            target: 'http://127.0.0.1:7029',
             secure: false,
             changeOrigin: true,
             pathRewrite: {
-              '^/api/v1/todo/': '/api/v1/todo/'
+              '^/api/v1/lifeboat/': '/api/v1/lifeboat/'
             }
           }
         },

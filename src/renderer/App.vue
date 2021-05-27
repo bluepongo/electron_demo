@@ -2,7 +2,7 @@
   <div id="app" :class="{ unfocused: ignoreMouse }">
     <div class="drag-nav">
       <b>{{ appName }}</b>
-      <i>Powered by Zhy/Yc</i>
+      <i>Powered by me</i>
     </div>
     <router-view></router-view>
   </div>
@@ -12,11 +12,11 @@
 export default {
   data () {
     return {
-      appName: 'Never Todo',
+      appName: 'Demo',
       ignoreMouse: false
     }
   },
-  name: 'never-todo-frontend'
+  name: 'lifeboat-frontend'
 }
 </script>
 
@@ -48,7 +48,7 @@ export default {
     justify-content: space-between;
     height: 26px;
     padding: 0 20px;
-    color: #dddddd;
+    color: #7c7b7d;
     user-select: none;
     .link {
       a {
