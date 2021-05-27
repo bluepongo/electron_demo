@@ -15,3 +15,8 @@ export function getRoleInfo () {
   return axios.get(
     path.join(baseUrl, roleUrl))
 }
+
+export function getRoleInfoByName (name) {
+  return axios.get(
+    path.join(baseUrl, roleUrl, name))
+}
